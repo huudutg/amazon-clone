@@ -1,0 +1,51 @@
+.checkout {
+    max-width: 1500px;
+    min-height: 3000px;
+    margin: 0 auto;
+    background-color: rgb(226, 221, 221);
+    height: max-content;
+    &__ad {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    &__content {
+        display: flex;
+    }
+    &__empty {
+        top: 50px;
+        position: relative;
+        margin: auto;
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        & svg {
+            position: absolute;
+            top: -120px;
+            max-width: 400px;
+        }
+        & span {
+            font-size: 20px;
+        }
+        max-width: 500px;
+    }
+    &__items {
+        width: 90%;
+        margin-left: 20px;
+    }
+    &__item {
+        background-color: rgb(255, 255, 255);
+        margin: 15px 5px;
+        display: flex;
+        position: relative;
+        & img {
+            max-width: 150px;
+            margin-right: 10px;
+        }
+        & button {
+            position: absolute;
+            bottom: 5px;
+            background-color: #f0c14b;
+            border: 1px solid
+        }
+    }
+}

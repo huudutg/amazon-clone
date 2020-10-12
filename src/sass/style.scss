@@ -1,0 +1,13 @@
+.nav {
+    color: rgb(231, 14, 14)
+}
+
+h1 {
+    color: rgb(236, 22, 22);
+}
+
+@import './Components/Navbar';
+@import './Components/Home';
+@import './Components/Product';
+@import './Components/Checkout';
+@import './Components/Subtotal';
